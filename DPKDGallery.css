@@ -1,0 +1,199 @@
+body{
+    background-position:fixed;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right top, #3f7fff, #0092ff);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html{
+    height: 100%;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 1000;      
+    top: -0px;
+    background: rgba(0, 0, 0);
+    padding-left: 0;
+    left: 0;
+
+}
+table{
+    position: relative;
+    top: 100px;
+}
+h1{
+    float: right;
+    position: relative;
+    right: 1280px;
+    top:  10px;
+    height: 80px;
+    color: white;
+}
+h1:hover{
+    cursor: pointer;
+}
+@keyframes navbar{
+    30%{
+        transform:translateY(-8px);
+    }
+}
+li{
+    list-style: none;
+    float: right;
+    margin: 20px;
+    margin-right: 8px;
+    position: relative;
+    bottom: 60px;
+    font-size: 20px;
+}
+li:hover{
+    animation: navbar 0.5s forwards;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:#0092ff;
+}
+#fb{
+    position: relative;
+    right: 400px;
+}
+.bag1{
+    position: relative;
+    top:210px;
+}
+.textgal p{
+    font-size: 100px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+}
+#text1{
+    position: relative;
+    bottom: 50px;
+    color: white;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.bag2{
+    position: relative;
+    top: 530px;
+    text-align: center;
+    font-size: 24px;
+}
+#textgal1{
+    font-size: 32px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#gamgal1 img{
+    margin-right: 35px;
+    margin-left: 35px;
+}
+#gal2{
+    margin-top: 90px;
+}
+#textgal2{
+    font-size: 32px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#gamgal2 img{
+    margin-right: 35px;
+    margin-left: 35px;
+}
+#gal3{
+    margin-top: 90px;
+}
+#textgal3{
+    font-size: 32px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#gamgal3 img{
+    margin-right: 35px;
+    margin-left: 35px;
+}
+img{
+    border-radius: 20px;
+}
+img:hover{
+    animation: img 0.2s forwards;
+}
+@keyframes img
+{
+    0%{
+        transform: scale(1);
+    }
+    40%{
+        transform: scale(1.03);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+.gelombang {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: 0;
+}
+
+.gelombang svg {
+    position: relative;
+    display: block;
+    width: calc(124% + 1.3px);
+    height: 101px;
+}
+
+.gelombang .shape-fill {
+    fill: #FFFFFF;
+}
+
+nav div {
+    margin-right: 18px;
+    margin-top: 5px;
+    margin: 0 10px;
+}
+.footer{
+    position: relative;
+    top: 650px;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 120px;
+    width: 100%;
+    left: 0;
+}
+.contact {
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+    top: 25px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hubungisaya{
+    color: white;
+}
+#wa{
+    position: relative;
+    bottom: 10px;
+}
+#ig{
+    position: relative;
+    bottom: 10px;
+}
+#yt{
+    position: relative;
+    bottom: 10px;
+}
